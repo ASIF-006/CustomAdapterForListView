@@ -21,6 +21,6 @@ public class MainActivity extends AppCompatActivity {
         Profile profile=new Profile();
         profiles=profile.getAllProfile();
         profileAdapter=new ProfileAdapter(this,profiles);
-        profileListView.setAdapter(profileAdapter);
+        profileListView.setAdapter(profileAdapter); // this is just a comment
     }
 }
